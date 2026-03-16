@@ -1,7 +1,7 @@
 * {
 font-family: "Inter", sans-serif!important;
   font-optical-sizing: auto;
-  font-weight: 500;
+  font-weight: 400;
   font-style: normal;
   color: white;
 }
@@ -10,6 +10,9 @@ font-family: "Inter", sans-serif!important;
     padding: 128px 20px;
     gap: 32px;
     background-color: #0E1A2B;
+    z-index: 1;
+    font-size: 20px;
+    line-height: 24px;
 }
 
 #quemsomos {
@@ -33,17 +36,54 @@ font-family: "Inter", sans-serif!important;
 #comofunciona {
     padding: 96px 20px;
     gap: 32px;
+    background: linear-gradient(
+    180deg,
+    #2F5891 0%,
+    #0E1A2B 100%
+);
 
 }
 
+.ellipse-hero-bg {
+    background-color: #009fe344;
+    border-radius: 100%;
+    filter: blur(120px);
+    width: 600px;
+    height: 600px;
+    position: absolute;
+    top: -32px;
+    left: -150px;
+    z-index: 2;
+}
+
 h1 {
+    margin: 0;
     font-size: 32px;
+    line-height: 38px;
+    font-weight: bold;
 }
 
 .subtitle {
     font-size: 32px;
+    line-height: 38px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
 }
 
 .verdemarca {
     color: #2B9E14
+}
+
+.cta {
+    background-color: #00D26A;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 22px;
+    border-radius: 12px;
+    padding: 24px 32px;
+    text-decoration: none;
+    text-align: center;
+    width: auto;
 }
