@@ -1,3 +1,10 @@
+* {
+font-family: "Inter", sans-serif!important;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
 #inicio {
     padding: 128px 20px;
     gap: 32px;
