@@ -3,30 +3,47 @@ font-family: "Inter", sans-serif!important;
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
+  color: white;
 }
 
 #inicio {
     padding: 128px 20px;
     gap: 32px;
+    background-color: #0E1A2B;
 }
 
 #quemsomos {
     padding: 80px 20px;
     gap: 32px;
+    background-color: #0C223A;
 }
 
 #oquefazemos {
     padding: 96px 20px;
     gap: 32px;
+    background-color: #0B1F33;
 }
 
 #paraqueme {
     padding: 80px 20px;
     gap: 32px;
+    background-color: #0C223A;
 }
 
 #comofunciona {
     padding: 96px 20px;
     gap: 32px;
 
+}
+
+h1 {
+    font-size: 32px;
+}
+
+.subtitle {
+    font-size: 32px;
+}
+
+.verdemarca {
+    color: #2B9E14
 }
